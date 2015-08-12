@@ -1,0 +1,10 @@
+/* Empty. Add your own CSS if you like */
+
+.nav {
+  background-color: blue;
+  color: white;
+}
+
+.clickable-row.activated {
+  background-color: rgba(50,50,50,0.8);
+}

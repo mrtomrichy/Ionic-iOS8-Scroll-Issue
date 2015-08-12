@@ -1,0 +1,10 @@
+<ion-view title="iOS8 Scroll Test" hide-nav-bar="false">
+  <!-- View content -->
+  <ion-content scroll="true" padding="true" has-header="true">
+      <div style="width: 100%;">
+        <div class='clickable-row' ng-repeat="item in fakeArray track by $index" ng-click="click($index)">
+          <h1>{{$index}}</h1>
+        </div>
+      </div>
+  </ion-content>
+</ion-view>
